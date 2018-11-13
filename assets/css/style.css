@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*---------------Colors*/
+
+.ui-menu-color-home {
+    background-color: #373E43;
+}
+
+.ui-menu-color-listen {
+    background-color: #5B666F;
+}
+
+.ui-menu-color-watch {
+    background-color: #808F9C;
+}
+
+.ui-menu-color-booking {
+    background-color: #5B666F;
+}
+
+.bg-color-news {
+    background-color: #D6DBDF;
+
+
+}
+
+.bg-color-upcoming-shows {
+    background-color: #696969;
+}
+
+
+/*---------------Header*/
+
+header {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    background: url("../images/monkeessm.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px; 
+    /*Add media query to the above for larger */
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+
+
+/*--------------------------Navbar*/
+
+#nav {
+    margin: 0;
+}
+
+
+
+.menuitem {
+    height: 50px;
+    text-align: center;
+
+
+}
+
+.menuitem a {
+    text-decoration: none;
+    color: #FAFCFE;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+
+}
+
+/*--------------------------------------------Hover.css*/
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
+/*-------------------------------------------News Section*/
+
+.news {
+    min-height: 750px;
+}
+
+.news-item {
+    float: right;
+    width: 20%;
+    /* three containers (use 25% for four, and 50% for two, etc) */
+    padding: 5px;
+    /* if you want space between the images */
+}
+
+
+.news {
+     
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+
+
+/*--------------------------------------------Upcoming shows*/
+
+.upcoming-shows {
+    color: #fafafa;
+    padding-bottom: 3em;
+    min-height: 800px;
+}
+
+.shows-header {
+    text-align: right;
+    padding-right: 0.5em;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    border-right: 1px solid;
+    text-align: right;
+    
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+
+.timeline-item::before {
+    
+    content: attr(dates);
+    display: block;
+    top: 3em;
+    margin: 0;
+    padding: 0;
+}
+
+.timeline-item::after {
+    
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 4em;
+    position: absolute;
+    right: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #fafafa;
+}
+/*--------------------------------------------Footer*/
+
+footer {
+    background-color: #25292D;
+    color: #F5F9FD;
+    margin: 0;
+
+}
+
+
+.general-sub {
+    padding-top: 10px;
+    text-align: center;
+
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+form {
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+/*-------------------------------------------Media Queries*/
+
+@media only screen and (min-width: 1281px) {
+
+.logo {
+    min-height: 1100px; 
+
+}
+}
