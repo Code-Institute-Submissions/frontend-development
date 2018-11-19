@@ -9,76 +9,103 @@
 
 <body>
 	<header class="container-fluid">
+
 		<div class="row">
 			<a href="index.html">
-				<div class="col-md-12 logo"></div>
+				<div class="col-xs 12 col-sm 12 col-md-12 header-image">
+					<div class="logo"></div>
 			</a>
-			<div class="col-md-8">
-
 			</div>
+
+		</div>
+
+		<div class="row">
+			<ul id="nav" class="list-inline clearfix">
+				<li class="col-xs-6 col-sm-6 col-md-3 ui-menu-color-home menuitem">
+					<a href="index.html" class="hvr-grow"><i class="fa fa-home hvr-grow" aria-hidden="true"></i><span>Home</span></a>
+				</li>
+				<li class="col-xs-6 col-sm-6 col-md-3  ui-menu-color-listen menuitem">
+					<a href="listen.html" class="hvr-grow"><i class="fa fa-headphones hvr-grow" aria-hidden="true"></i><span>Listen</span></a>
+				</li>
+				<li class="col-xs-6 col-sm-6 col-md-3  ui-menu-color-watch menuitem">
+					<a href="watch.html" class="hvr-grow"><i class="fa fa-tv hvr-grow" aria-hidden="true"></i><span>Watch</span></a>
+				</li>
+				<li class="col-xs-6 col-sm-6 col-md-3 ui-menu-color-booking menuitem">
+					<a href="booking.html" class="hvr-grow"><i class="fa fa-calendar hvr-grow" aria-hidden="true"></i><span>Bookings</span></a>
+				</li>
+			</ul>
 		</div>
 	</header>
 
-	<div class="row">
-		<ul id="nav" class="list-inline clearfix">
-			<li class="col-xs-6 col-sm-6 col-md-3 ui-menu-color-home menuitem">
-				<a href="index.html" class="hvr-grow"><i class="fa fa-home hvr-grow" aria-hidden="true"></i><span>Home</span></a>
-			</li>
-			<li class="col-xs-6 col-sm-6 col-md-3  ui-menu-color-listen menuitem">
-				<a href="listen.html" class="hvr-grow"><i class="fa fa-headphones hvr-grow" aria-hidden="true"></i><span>Listen</span></a>
-			</li>
-			<li class="col-xs-6 col-sm-6 col-md-3  ui-menu-color-watch menuitem">
-				<a href="#" class="hvr-grow"><i class="fa fa-tv hvr-grow" aria-hidden="true"></i><span>Watch</span></a>
-			</li>
-			<li class="col-xs-6 col-sm-6 col-md-3 ui-menu-color-booking menuitem">
-				<a href="#" class="hvr-grow"><i class="fa fa-calendar hvr-grow" aria-hidden="true"></i><span>Bookings</span></a>
-			</li>
-		</ul>
-	</div>
 
 
-	<section class="container-fluid">
+	<section class="container-fluid main-content">
 		<div="row">
 			<div class="col-xs-12 col-sm-12 col-md-8 bg-color-listen">
-				<div class="listen">
-					<h2 class="listen-header">Listen to The Monkees!</h2>
-					
-					<div class="audiofile">
-					<audio controls>
+
+
+
+				<section class="container-fluid">
+					<div="row">
+						<div class="listen">
+							<h2 class="listen-header uppercase">Listen to The Monkees</h2>
+							
+
+
+							<div class="col-md-6">
+														<img class="audio-image hvr-grow" src="assets/images/album.jpg" alt-text="Greatest Hits"></img>
+
+								<div class="audiofile">
+									<h4>The Monkees - Clarksville</h4>
+									<audio controls>
   							<source src="assets/audio/Clarksville.mp3" type="audio/mpeg">
 							Your browser does not support the audio element.
 							</audio>
-							</div>
-							
-												<div class="audiofile">
+								</div>
 
-							<audio controls>
+								<div class="audiofile">
+
+									<h4>The Monkees - Daydream Believer</h4>
+									<audio controls>
   							<source src="assets/audio/DaydreamBeliever.mp3" type="audio/mpeg">
 							Your browser does not support the audio element.
 							</audio>
 							</div>
-							
-												<div class="audiofile">
+								</div>
+								<div class="col-md-6">
+																							<img class="audio-image hvr-grow" src="assets/images/cover.jpg" alt-text="Greatest Hits cover"></img>
 
-							<audio controls>
+								 <div class="audiofile">
+									<h4>The Monkees - Im A Believer</h4>
+
+									<audio controls>
   							<source src="assets/audio/ImABeliever.mp3" type="audio/mpeg">
 							Your browser does not support the audio element.
 							</audio>
-							</div>
-							
-												<div class="audiofile">
+								</div>
 
-							<audio controls>
+								<div class="audiofile">
+
+									<h4>The Monkees - Stepping Stone</h4>
+
+									<audio controls>
   							<source src="assets/audio/SteppingStone.mp3" type="audio/mpeg">
 							Your browser does not support the audio element.
 							</audio>
+								</div>
 							</div>
-				</div>
+						</div>
+				</section>
+			</div>
+
+			</div>
 			</div>
 			</div>
 
+
+
 			<div class="col-xs-12 col-sm-12 col-md-4 bg-color-upcoming-shows upcoming-shows">
-				<h3 class="shows-header">Upcoming Shows!</h3>
+				<h3 class="shows-header uppercase">Upcoming Shows</h3>
 
 
 				<div class="timeline-item" dates="12/12/2018">
@@ -97,21 +124,15 @@
 					<h4>Los Angelas, Californa, USA</h4>
 					<p>Divi Gardens</p>
 				</div>
+
 			</div>
-
-
-
-
-
-
-
 	</section>
 
 
 	<footer class="container-fluid">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-4">
-				<h5 class="uppercase general-sub newsletter">Sign up to our newsletter! <i class="fa fa-envelope" aria-hidden="true"></i></h5>
+				<h5 class="uppercase general-sub newsletter ">Sign up to our newsletter! <i class="fa fa-envelope hvr-grow" aria-hidden="true"></i></h5>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-4">
 				<form class="form-inline uppercase" action="action_page.php" method="post">

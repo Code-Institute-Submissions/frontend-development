@@ -3,24 +3,23 @@
 /*---------------Colors*/
 
 .ui-menu-color-home {
-    background-color: #373E43;
+    background-color: #4A4A4F;
 }
 
 .ui-menu-color-listen {
-    background-color: #5B666F;
+    background-color: #5C5C63;
 }
 
 .ui-menu-color-watch {
-    background-color: #808F9C;
+    background-color: #80818B;
 }
 
 .ui-menu-color-booking {
-    background-color: #5B666F;
+    background-color: #A5A6B2;
 }
 
 .bg-color-news {
     background-color: #D6DBDF;
-
 
 }
 
@@ -28,13 +27,18 @@
     background-color: #696969;
 }
 
+.bg-color-listen {
+   background-color:  #D6DBDF
+}
 
 /*---------------Header*/
 
-header {
+.header-image {
     margin: 0;
     padding: 0;
 }
+
+
 
 .logo {
     background: url("../images/monkeessm.jpg");
@@ -46,6 +50,7 @@ header {
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+
 }
 
 
@@ -80,8 +85,13 @@ header {
     font-weight: 300;
     letter-spacing: 2px;
 
+
 }
 
+/*.col-md-12, .col-md-8 {
+    min-height: 0px;
+}
+*/
 /*--------------------------------------------Hover.css*/
 
 .hvr-grow {
@@ -103,44 +113,97 @@ header {
 
 /*-------------------------------------------News Section*/
 
+
+
+.main-content {
+    margin: 0;
+    padding: 0;
+
+
+
+}
+
 .news {
-    min-height: 750px;
+
+    margin: 20px 20px 20px 20px;
+    min-height: 628px;
+
 }
 
 .news-item {
     float: right;
-    width: 20%;
-    /* three containers (use 25% for four, and 50% for two, etc) */
+    width: 200px;
     padding: 5px;
-    /* if you want space between the images */
+    height: 200px;
+
+}
+
+.news-header {
+    margin: 20px;
 }
 
 
-.news {
-     
-    margin: 0;
-    padding: 0;
+.news-section {
     
+    min-height: 250px;
+}
 
+/*--------------------------------------------Audio Section*/
+
+.listen {
+    min-height: 691px;
+    text-align: center;
+}
+
+.audiofile {
+    padding: 15px;
 }
 
 
+.audio-image {
+    padding: 10px;
+height: 200px;
+margin: 32px;
+
+}
+
+/*--------------------------------------------Watch Section*/
+
+.video {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+/*--------------------------------------------Booking Section*/
+
+.booking {
+    min-height: 681px;
+        text-align: center;
+        margin: 20px;
+
+}
+.booking-header {
+    text-align: center;
+    padding: 20px;
+}
 
 /*--------------------------------------------Upcoming shows*/
 
 .upcoming-shows {
     color: #fafafa;
     padding-bottom: 3em;
-    min-height: 800px;
+    padding-right: 2em;
+    min-height: 721px;
 }
 
 .shows-header {
     text-align: right;
-    padding-right: 0.5em;
+    padding-right: 0.7em;
 }
 
 .timeline-item {
-    padding: 4em 2em 0em 2em;
+padding: 4em 3em 0em 1em;
+    margin-right: 20px;
     position: relative;
     border-right: 1px solid;
     text-align: right;
@@ -226,12 +289,12 @@ form {
 }
 
 
+
 /*-------------------------------------------Media Queries*/
 
-@media only screen and (min-width: 1281px) {
-
+@media only screen and (min-width: 1400px) {
 .logo {
-    min-height: 1100px; 
+    min-height: 800px; 
 
 }
 }

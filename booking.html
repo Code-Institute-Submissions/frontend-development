@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+</head>
+
+<body>
+	<header class="container-fluid">
+
+		<div class="row">
+			<a href="index.html">
+				<div class="col-xs 12 col-sm 12 col-md-12 header-image">
+					<div class="logo"></div>
+			</a>
+			</div>
+
+		</div>
+
+		<div class="row">
+			<ul id="nav" class="list-inline clearfix">
+				<li class="col-xs-6 col-sm-6 col-md-3 ui-menu-color-home menuitem">
+					<a href="index.html" class="hvr-grow"><i class="fa fa-home hvr-grow" aria-hidden="true"></i><span>Home</span></a>
+				</li>
+				<li class="col-xs-6 col-sm-6 col-md-3  ui-menu-color-listen menuitem">
+					<a href="listen.html" class="hvr-grow"><i class="fa fa-headphones hvr-grow" aria-hidden="true"></i><span>Listen</span></a>
+				</li>
+				<li class="col-xs-6 col-sm-6 col-md-3  ui-menu-color-watch menuitem">
+					<a href="watch.html" class="hvr-grow"><i class="fa fa-tv hvr-grow" aria-hidden="true"></i><span>Watch</span></a>
+				</li>
+				<li class="col-xs-6 col-sm-6 col-md-3 ui-menu-color-booking menuitem">
+					<a href="booking.html" class="hvr-grow"><i class="fa fa-calendar hvr-grow" aria-hidden="true"></i><span>Bookings</span></a>
+				</li>
+			</ul>
+		</div>
+	</header>
+
+
+
+	<section class="container-fluid main-content">
+		<div="row">
+			<div class="col-xs-12 col-sm-12 col-md-8 bg-color-news">
+				<div class="booking">
+
+					<h2 class="booking-header uppercase">Bookings</h3>
+					<p>Due to popular demand the Monkees are now accepting bookings. </p>
+					<p>Do you have an upcoming wedding, birhtday or office party? Looking to amaze guests with a world renowned band? Then look no further!</p>
+					<p>If you're interested in booking the Monkess for an event please fill out the below form and our management team will get in touch if your event aligns with their schedule</p>
+						<div class="booking-form">
+							<form class="form-horizontal">
+								<fieldset>
+
+
+
+									<!-- Text input-->
+									<div class="form-group">
+										<label class="col-md-4 control-label" for="textinput">Name</label>
+										<div class="col-md-6">
+											<input id="textinput" name="textinput" type="text" placeholder="Name" class="form-control input-md" required="">
+
+										</div>
+									</div>
+
+									<!-- Text input-->
+									<div class="form-group">
+										<label class="col-md-4 control-label" for="location">Location</label>
+										<div class="col-md-6">
+											<input id="location" name="location" type="text" placeholder="location" class="form-control input-md" required="">
+
+										</div>
+									</div>
+
+									<!-- Text input-->
+									<div class="form-group">
+										<label class="col-md-4 control-label" for="phonenum">Phone Number</label>
+										<div class="col-md-6">
+											<input id="phonenum" name="phonenum" type="text" placeholder="Phone number" class="form-control input-md" required="">
+
+										</div>
+									</div>
+
+									<!-- Select Basic -->
+									<div class="form-group">
+										<label class="col-md-4 control-label" for="eventtype">Event Type</label>
+										<div class="col-md-6">
+											<select id="eventtype" name="eventtype" class="form-control">
+      <option value="1">Wedding</option>
+      <option value="2">Birthday</option>
+      <option value="3">Office Party</option>
+    </select>
+										</div>
+									</div>
+<div class="form-group">
+  <label class="col-md-4 control-label" for="addinfo">Additional Info</label>
+  <div class="col-md-4">                     
+    <textarea class="form-control" id="addinfo" name="addinfo"></textarea>
+  </div>
+</div>
+									<!-- Button -->
+									<div class="form-group">
+										<label class="col-md-4 control-label" for="submit"></label>
+										<div class="col-md-4">
+											<button id="submit" name="submit" class="btn btn-primary">Submit</button>
+										</div>
+									</div>
+
+								</fieldset>
+							</form>
+
+							</video>
+						</div>
+				</div>
+			</div>
+			</div>
+
+
+
+			<div class="col-xs-12 col-sm-12 col-md-4 bg-color-upcoming-shows upcoming-shows">
+				<h3 class="shows-header uppercase">Upcoming Shows</h3>
+
+
+				<div class="timeline-item" dates="12/12/2018">
+					<h4>New York, New York, USA</h4>
+					<p>Maddison Square Gardens</p>
+				</div>
+				<div class="timeline-item" dates="21/01/2019">
+					<h4>Miami, Florida, USA</h4>
+					<p>The Royal Theatre</p>
+				</div>
+				<div class="timeline-item" dates="1/02/2019">
+					<h4>Austin, Texas, USA</h4>
+					<p>The Apple Stadium</p>
+				</div>
+				<div class="timeline-item" dates="10/02/2019">
+					<h4>Los Angelas, Californa, USA</h4>
+					<p>Divi Gardens</p>
+				</div>
+
+			</div>
+	</section>
+
+
+	<footer class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-4">
+				<h5 class="uppercase general-sub newsletter">Sign up to our newsletter! <i class="fa fa-envelope hvr-grow" aria-hidden="true"></i></h5>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-4">
+				<form class="form-inline uppercase" action="action_page.php" method="post">
+					<div class="form-group">
+						<input type="text" name="email" id="email" placeholder="Email Address" />
+						<button type="submit" class="btn btn-primary btn-sm">Sign Up!</button>
+					</div>
+			</div>
+
+			<div class="col-xs-12 col-sm-12 col-md-4 inline-block general-sub">
+				<h5 class="uppercase inline-block">Follow us!</h5>
+				<ul class="list-inline social-links">
+					<li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
+					<li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
+					<li><a target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
+					<li><a target="_blank" href="#"><i class="fa fa-pinterest"></i></a></li>
+					<li><a target="_blank" href="#"><i class="fa fa-instagram"></i></a></li>
+					<li><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
