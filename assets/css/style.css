@@ -28,10 +28,16 @@
 }
 
 .bg-color-listen {
-   background-color:  #D6DBDF
+    background-color: #D6DBDF
 }
 
 /*---------------Header*/
+
+
+
+
+
+
 
 .header-image {
     margin: 0;
@@ -45,14 +51,46 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 600px; 
-    /*Add media query to the above for larger */
+    min-height: 550px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 
 }
 
+
+/* Alert */
+
+/*.alert-container {
+    height: 20px;
+}
+*/
+
+.alert-warning .alert-link {
+    color: white;
+}
+
+.alert-header {
+     padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;    
+}
+
+.alert-container .col-xs-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert {
+    color: lightgray;
+    background-color: #80818B;
+    border-color: #80818B;
+    padding: 5px 15px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-radius: 0;
+}
 
 
 /*--------------------------Navbar*/
@@ -66,7 +104,7 @@
 .menuitem {
     height: 50px;
     text-align: center;
-
+    font-weight: bold;
 
 }
 
@@ -92,6 +130,7 @@
     min-height: 0px;
 }
 */
+
 /*--------------------------------------------Hover.css*/
 
 .hvr-grow {
@@ -112,8 +151,6 @@
 }
 
 /*-------------------------------------------News Section*/
-
-
 
 .main-content {
     margin: 0;
@@ -144,7 +181,7 @@
 
 
 .news-section {
-    
+
     min-height: 250px;
 }
 
@@ -162,9 +199,13 @@
 
 .audio-image {
     padding: 10px;
-height: 200px;
-margin: 32px;
+    height: 200px;
+    margin: 32px;
 
+}
+
+.audio-section {
+    padding-bottom: 1em;
 }
 
 /*--------------------------------------------Watch Section*/
@@ -172,16 +213,23 @@ margin: 32px;
 .video {
     text-align: center;
     padding-bottom: 50px;
+   /* min-height: 701px;*/
+           padding: 10px 0 50px 0;
+               margin-bottom: 45px;
+
+
+
 }
 
 /*--------------------------------------------Booking Section*/
 
 .booking {
     min-height: 681px;
-        text-align: center;
-        margin: 20px;
+    text-align: center;
+    margin: 20px;
 
 }
+
 .booking-header {
     text-align: center;
     padding: 20px;
@@ -199,15 +247,19 @@ margin: 32px;
 .shows-header {
     text-align: right;
     padding-right: 0.7em;
+    padding-bottom: 1em;
 }
 
+
+
 .timeline-item {
-padding: 4em 3em 0em 1em;
+    padding: 4em 3em 0em 1em;
     margin-right: 20px;
     position: relative;
     border-right: 1px solid;
     text-align: right;
     
+
 }
 
 .timeline-item p {
@@ -217,7 +269,7 @@ padding: 4em 3em 0em 1em;
 
 
 .timeline-item::before {
-    
+
     content: attr(dates);
     display: block;
     top: 3em;
@@ -226,7 +278,7 @@ padding: 4em 3em 0em 1em;
 }
 
 .timeline-item::after {
-    
+
     width: 12px;
     height: 12px;
     display: block;
@@ -237,6 +289,7 @@ padding: 4em 3em 0em 1em;
     content: '';
     background: #fafafa;
 }
+
 /*--------------------------------------------Footer*/
 
 footer {
@@ -292,9 +345,55 @@ form {
 
 /*-------------------------------------------Media Queries*/
 
-@media only screen and (min-width: 1400px) {
-.logo {
-    min-height: 800px; 
+@media only screen and (max-width: 1100px) {
+
+.video {
+      min-height: 200px;
+    height: 410px;
+    width: auto;
+    display: inline-block;
+    margin-bottom: 180px;
+
 
 }
 }
+
+@media only screen and (max-width: 667px) {
+
+.video {
+      min-height: 200px;
+    height: 240px;
+    width: auto;
+    display: inline-block;
+
+
+}
+}
+
+
+@media only screen and (min-width: 1400px) {
+    .logo {
+        min-height: 800px;
+
+    }
+}
+
+
+@media only screen and (max-width: 920px) {
+    .logo {
+    min-height: 400px;
+    }
+}
+
+@media only screen and (max-width: 667px) {
+    .logo {
+    min-height: 200px;
+    }
+    
+    .audio {
+            width: 255px;
+
+}
+
+}
+
