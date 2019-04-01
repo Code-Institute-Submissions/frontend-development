@@ -355,6 +355,9 @@ form {
     text-transform: uppercase;
 }
 
+.form-group{
+   color: gray; 
+}
 
 
 /*-------------------------------------------Media Queries*/

@@ -1,7 +1,7 @@
 # User Centric Frontend Development Milestone Project  
 ---
 
-[Link to Github page]()
+https://jessdevine.github.io/frontend-development/
 
 Welcome to my first milestone project on user centric front end development. For this project
 I've created a mobile responsive all inclusive website for the band "The Monkeys". 
@@ -38,8 +38,20 @@ bar containing information about upcoming shows.
 ## Testing
 
 
+
+
 ## Deployment
 
+Deployed uses GitHub Pages:
+
+— Using my existing GitHub repo for my project I cloned it to new repository called: 
+https://github.com/jessdevine/jessdevine.github.io
+
+— Added an index.html file that reads "Hello World"
+
+— Added, committed, and pushed my changes to my GitHub repository: https://github.com/jessdevine/frontend-development/
+
+— Went to my browser and visited https://jessdevine.github.io/frontend-development/
 
 ## Authors
 
