@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 	<meta charset="UTF-8">
@@ -8,6 +8,8 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+		  <title>The Monkees</title>
+
 </head>
 
 <body>
@@ -18,7 +20,7 @@
 			<div class="row">
 				<div class="col-xs-12">
 					<div class="site-wide-alert alert alert-warning">
-						<strong>Event booking now available</strong> You've asked, we listened. Per demand bookings are now available! <a href="booking.html" class='alert-link' href="">See here for more details</a>
+						<strong>Event booking now available</strong> You've asked, we listened. Per demand bookings are now available! <a href="booking.html" class='alert-link'>See here for more details</a>
 					</div>
 				</div>
 			</div>
@@ -56,7 +58,6 @@
 
 
 	<section class="container-fluid main-content">
-		<div="row">
 			<div class="col-xs-12 col-sm-12 col-md-8 bg-color-news">
 				<div class="booking">
 
@@ -72,11 +73,23 @@
 
 
 
-									<!-- Text input-->
+									<!-- Name-->
 									<div class="form-group">
 										<label class="col-md-4 control-label" for="textinput">Name</label>
 										<div class="col-md-6">
-											<input id="textinput" name="textinput" type="text" placeholder="Name" class="form-control input-md" required="">
+											<input id="textinput" name="textinput" type="text" 
+											class="form-control input-md" required="">
+
+										</div>
+									</div>
+
+									<!-- Email-->
+									<div class="form-group">
+										<label class="col-md-4 control-label" for="email">Email</label>
+										<div class="col-md-6">
+											<input id="location" name="location" type="text" 
+											class="form-control input-md" required="" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" 
+											title="Invalid Email">
 
 										</div>
 									</div>
@@ -85,7 +98,8 @@
 									<div class="form-group">
 										<label class="col-md-4 control-label" for="location">Location</label>
 										<div class="col-md-6">
-											<input id="location" name="location" type="text" placeholder="location" class="form-control input-md" required="">
+											<input id="location" name="location" type="text" 
+											class="form-control input-md" required="">
 
 										</div>
 									</div>
@@ -94,7 +108,8 @@
 									<div class="form-group">
 										<label class="col-md-4 control-label" for="phonenum">Phone Number</label>
 										<div class="col-md-6">
-											<input id="phonenum" name="phonenum" type="text" placeholder="Phone number" class="form-control input-md" required="">
+											<input id="phonenum" name="phonenum" type="text" 
+											class="form-control input-md" required="">
 
 										</div>
 									</div>
@@ -104,9 +119,11 @@
 										<label class="col-md-4 control-label" for="eventtype">Event Type</label>
 										<div class="col-md-6">
 											<select id="eventtype" name="eventtype" class="form-control">
-      <option value="1">Wedding</option>
-      <option value="2">Birthday</option>
-      <option value="3">Office Party</option>
+     										 	<option value="1">Wedding</option>
+      											<option value="2">Birthday</option>
+     												 <option value="3">Office Party</option>
+     							<option value="4">Other</option>
+
     </select>
 										</div>
 									</div>
