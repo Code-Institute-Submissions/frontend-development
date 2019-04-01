@@ -51,7 +51,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 550px;
+    min-height: 500px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -156,7 +156,19 @@
     margin: 0;
     padding: 0;
 
-
+.codeinstitute {
+    
+    background-color: black
+    size: 100px;
+    position: left;
+    margin-bottom: 0;
+    margin: 0;
+    background: relative;
+    width: 0;
+    display: relative;
+    
+   
+}
 
 }
 
@@ -172,6 +184,8 @@
     width: 200px;
     padding: 5px;
     height: 200px;
+    display: block;
+    
 
 }
 

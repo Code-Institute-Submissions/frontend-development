@@ -1,43 +1,45 @@
 # User Centric Frontend Development Milestone Project  
+---
 
-Welcome to my first milestone project on user centric front end development. My assignment was to
-create a website for the band, The Monkees! 
+[Link to Github page]()
 
-## Getting Started
+Welcome to my first milestone project on user centric front end development. For this project
+I've created a mobile responsive all inclusive website for the band "The Monkeys". 
 
-My vison was to create a very minimal, simple to navigate website which was mobile first 
-ready for ease of use in the modern world. 
+## UX
+---
 
-A statement image of The Monkees takes up much of the screen real estate on arrival,
-with an alert very top to promote event bookings. 
+This website is for fans of the Monkees to catch up on news, see tour information, 
+listen and watch their content and easily book the band for events. 
 
-The bottom of the screen invites the user the scroll
-down to discover news and upcoming shows. 
+As a fan, I navigate to the website and see the home page that contains read news, 
+I notice that bookings have become available due to the news and the alert bar up top. 
+Then I can navigate to the "bookings" page and fill out a form to submit a request to book. 
 
-The footer contains an option for fans to sign up to The Monkees newsletter 
-to receive regular updates on news and tours. This is then followed by links to 
-social media. 
+As a fan who follows the bands tour, on every page of the site there is a static side
+bar containing information about upcoming shows. 
 
-The home page theme which includes "upcoming shows" is constant accross all pages 
-linked in the nav bar. The other pages of the site contain songs to listen to,
-a music video to watch and a form for bookings.
+### Features
+---
 
-### Lessons Learned
+- The footer contains a text input that allows users to sign up to a mailing listen
+- The footer also has links to all social medias of the Monkees
+- The Listen page contains 4 mp3 files of songs that are playable and controllable 
+- The Watch page contains a Monkees music video which is playaable and controllable
+- The Bookings page allows users to submit a form to request bookings from the band
+- The alert bar on all pages links to the booking page
 
-While working on the project using Bootstrap I thought everything I was doing was 
-mobile first due to using `col-md-12` and the like. Little did I understand at the time 
-that I'd forgotten to use any kind of `viewport`. When I thought I was close to the tail
-end of my project,
-I tested it on my phone and noticed everything was tiny. I was using Chrome developer tools
-but was just sliding the inspecter from side to side instead of using the phone button option. 
-`¯\_(ツ)_/¯` After discovering that I continued to optimze the site for different screen & phone sizes.
-
-
-## Built With
+## Technologies Used
 
 * [HTML5](https://en.wikipedia.org/wiki/HTML5) - Latest version of Hypertext Markup Language
 * [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - Latest evolution of the Cascading Style Sheets language
 * [Bootstrap 3.3.7](https://getbootstrap.com/) - Mobile first stlying toolkit
+
+## Testing
+
+
+## Deployment
+
 
 ## Authors
 
